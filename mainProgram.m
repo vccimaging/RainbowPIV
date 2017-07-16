@@ -2,7 +2,7 @@ addpath('tools');
 load PSF.mat;
 
 %% number of frames processed simultaneously (memory size matters)
-numFrame = 6;
+numFrame = 2;
 readImage();
 
 D=20; npixels = H*W*D;
@@ -13,7 +13,7 @@ constructWeights();
 
 %% initialize parameters
 ratio = 8;          % ratio of voxel pitch in z axis to x-y plane
-maxwarping = 10;    % number of steration steps for non-linear warping
+maxwarping = 10;    % number of iteration steps for non-linear warping
 OUT_ITER = 2;       % outer iterations for the whole joint problem
 INNER_ITER = 2;     % inner iterations for velocity estimation
 ADMM_ITER = 5;      % ADMM iterations for pressure projection

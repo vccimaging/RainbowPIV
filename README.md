@@ -20,11 +20,22 @@ For the provided dataset, it requires about 20 GB memory at the peak, and 7GB me
 
 #### Acknowledgment:
 
-Thanks to Stephen Boyd for his publice source code on site: https://web.stanford.edu/~boyd/papers/admm/
-Thanks to Enric Meinhardt-Llopis for his publice source code on site: http://www.ipol.im/pub/art/2013/20/?utm_source=doi
+Thanks to Stephen Boyd for his publice source code on site: https://web.stanford.edu/~boyd/papers/admm/.
+Thanks to Enric Meinhardt-Llopis for his publice source code on site: http://www.ipol.im/pub/art/2013/20/?utm_source=doi.
 
 #### Reference:
 
-Jinhui Xiong, Ramzi Idoughi, Andres A. Aguirre-Pablo, Abdulrahman B. Aljedaani, Xiong Dun, Qiang Fu, Sigurdur T. Thoroddsen, and Wolfgang Heidrich. 2017. Rainbow Particle Imaging Velocimetry for Dense 3D Fluid Velocity Imaging. ACM Trans. Graph. 36, 4
+```
+@Article{Xiong:2017:RPIV,
+  author =       {J. Xiong and R. Idoughi and A. Aguirre-Pablo and A. Aljedaani and X. Dun and Q. Fu and S. Thoroddsen and W. Heidrich},
+  title =        {Rainbow Particle Imaging Velocimetry for Dense 3D Fluid Velocity Imaging},
+  journal =      {ACM Transactions on Graphics (Proc. SIGGRAPH)},
+  year =         2017,
+  volume =       36,
+  number =       4,
+  month =        {July},
+  pages =        {36:1--36:14}
+}
+```
 
 If you find any bugs or have comments/questions, please contact Jinhui Xiong at jinhui.xiong@kaust.edu.sa.

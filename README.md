@@ -21,6 +21,7 @@ For the provided dataset, it requires about 20 GB memory at the peak, and 7GB me
 #### Acknowledgment:
 
 Thanks to Stephen Boyd for his publice source code on site: https://web.stanford.edu/~boyd/papers/admm/
+Thanks to Enric Meinhardt-Llopis for his publice source code on site: http://www.ipol.im/pub/art/2013/20/?utm_source=doi
 
 #### Reference:
 

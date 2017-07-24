@@ -2,7 +2,7 @@ obImg = cell(numFrame,1);
 
 %% change to '../data/twoVortex/twoVortex', '../data/drop/drop', '../data/jet/jet'
 %% for the other dataset
-directory = '../data/drop/drop';
+directory = '../data/vortex/vortex';
 for i=1:numFrame
     ob_img = im2double( imread( [directory num2str(i) '.png' ] ) );
     ob_img = imfilter(ob_img,fspecial('Gaussian',8, 1.2));

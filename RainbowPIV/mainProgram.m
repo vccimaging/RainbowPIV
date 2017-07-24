@@ -2,7 +2,7 @@ addpath('tools');
 load PSF.mat;
 
 %% number of frames processed simultaneously (memory size matters)
-numFrame = 10;
+numFrame = 2;
 readImage();
 
 D=20; npixels = H*W*D;

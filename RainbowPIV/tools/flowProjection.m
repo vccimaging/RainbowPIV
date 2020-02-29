@@ -1,4 +1,4 @@
-function uv = flowProjection( uv_tmp, dx, dy, dz, Rp, Rpt )
+function uv = flowProjection( L, uv_tmp, dx, dy, dz, Rp, Rpt )
      
      div = dx'*uv_tmp(:,1) + dy'*uv_tmp(:,2) + dz'*uv_tmp(:,3);     
      P = pcg(L, div, 1e-6, 100, Rp, Rpt);

@@ -66,7 +66,7 @@ for i=1:numFrame-1
         zold = Z;
         x_hat = alpha.* reshape(uv(:,:,:,:,i),npixels,3) + (1 - alpha).*zold;
         
-        Z = flowProjection( x_hat+Q, dx, dy, dz, Rp, Rpt );
+        Z = flowProjection( L, x_hat+Q, dx, dy, dz, Rp, Rpt );
         Q = Q + (x_hat - Z);
         
     end 
